@@ -12,9 +12,9 @@ f2 ()
 
 f3 () {
 
-   name1=tata
-   name2=bye
-   name3=bye
+   #name1=tata
+   #name2=bye
+   #name3=bye
        echo $name1
        echo $name2
        echo $name3
@@ -28,6 +28,6 @@ f4 ()
 
 
 #f1
-f2
-#f3
+#f2
+f3
 #f4

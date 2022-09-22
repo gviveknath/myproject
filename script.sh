@@ -2,7 +2,7 @@
 f1 ()
 {
 echo "The top command shows a real-time view of running processes in Linux":
-        top
+        echo `top`
 }
 f2 ()
 {

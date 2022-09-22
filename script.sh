@@ -23,11 +23,11 @@ f3 () {
 f4 ()
 {
         echo "Last 10 log messages shows":
-        sudo grep error  /var/log/messages
+        sudo grep $input  /var/log/messages
 }
 
 
 #f1
 #f2
-f3
-#f4
+#f3
+f4

@@ -7,7 +7,7 @@ echo "The top command shows a real-time view of running processes in Linux":
 f2 ()
 {
        echo "the amount of disk space available on the filesystem with each file name's argument":
-        df -H
+        du script.sh
 }
 
 f3 () {
